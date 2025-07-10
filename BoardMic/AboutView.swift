@@ -26,16 +26,9 @@ struct AboutView: View {
                 }
             }
             
-            Spacer()
+            Link("GitHub Repo", destination: URL(string: "https://github.com/SunnyFloppyDiskStudios/BoardMic")!)
             
-            HStack {
-                Link("GitHub Repo", destination: URL(string: "https://github.com/SunnyFloppyDiskStudios/BoardMic")!)
-                
-                Divider()
-                
-                Link("sunnyflops.net", destination: URL(string: "https://sunnyflops.net")!)
-            }
-            .padding()
+            Link("sunnyflops.net", destination: URL(string: "https://sunnyflops.net")!)
             
             Spacer()
             
